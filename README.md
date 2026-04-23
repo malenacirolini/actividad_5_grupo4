@@ -13,7 +13,9 @@ Integrantes
 1. Colocar el archivo CSV dentro de la carpeta `datos/`
 2. Ejecutar el programa con el siguiente comando: python main.py
 
-Manejo de errores: El sistema valida los datos durante la carga y procesamiento del archivo.
+------------------------------------------------------------------------------------------------------------------------------------------------
+**Manejo de errores:** 
+El sistema valida los datos durante la carga y procesamiento del archivo.
 Ante la detección de un error, la ejecución se detiene inmediatamente y se muestra un mensaje en consola con el siguiente formato:
 [ERROR CRÍTICO] Tipo de error encontrado: <descripción> | Ubicación: <función>
 
@@ -44,7 +46,7 @@ Para una futura implementación utilizando Programación Orientada a Objetos, el
 - *Atributos:* 
     - tiempo: float --> instante de tiempo del registro
     - coordenada_x: float --> posición en eje X
-    - coordenada_y: float --> posición en eje Yc
+    - coordenada_y: float --> posición en eje Y
     - app: str --> categoría o aplicación utilizada
 - *Métodos:*
     - validar_datos(): verifica que los datos sean correctos
@@ -61,4 +63,5 @@ Para una futura implementación utilizando Programación Orientada a Objetos, el
     - cargar_datos(ruta): carga el archivo CSV
     - validar_datos(): ejecuta todas las validaciones necesarias
     - procesar_datos(): prepara la información para su análisis
+    - verificar_consistencia(): controla que existan datos suficientes y válidos
  
